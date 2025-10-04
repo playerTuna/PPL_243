@@ -21,22 +21,24 @@ The project demonstrates the full compilation pipeline, including **lexer, parse
 
 ---
 ## 📂 Project Structure
-├── src/              # Compiler implementation
-│   ├── lexer/        
-│   ├── parser/
-│   ├── ast/
-│   ├── checker/
-│   └── codegen/
-tests/
-├── test_lexer.py       # Tests for lexical analysis
-├── test_parser.py      # Tests for syntax parsing
-├── test_ast_gen.py     # Tests for Abstract Syntax Tree generation
-├── test_checker.py     # Tests for type checking and semantic analysis
-├── test_codegen.py     # Tests for code generation
-└── utils.py            # Shared test utilities
-└── run.py              # Entry point to run the compiler
 
----
+PPL_243/
+├── src/ # Compiler implementation
+│ ├── lexer/ # Lexical analysis
+│ ├── parser/ # Syntax parsing
+│ ├── ast/ # Abstract Syntax Tree
+│ ├── checker/ # Semantic and type checking
+│ └── codegen/ # Code generation
+│
+├── tests/ # Unit tests
+│ ├── test_lexer.py # Tests for lexical analysis
+│ ├── test_parser.py # Tests for syntax parsing
+│ ├── test_ast_gen.py # Tests for AST generation
+│ ├── test_checker.py # Tests for type checking
+│ ├── test_codegen.py # Tests for code generation
+│ └── utils.py # Shared test utilities
+│
+└── run.py # Entry point to run the compiler
 
 ## 1️⃣ Prerequisites
 
