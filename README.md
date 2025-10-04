@@ -20,6 +20,7 @@ The project demonstrates the full compilation pipeline, including **lexer, parse
 - **Jasmin**: Java bytecode backend (provided)  
 
 ---
+```
 ## 📂 Project Structure
 
 PPL_243/
@@ -39,6 +40,7 @@ PPL_243/
 │ └── utils.py # Shared test utilities
 │
 └── run.py # Entry point to run the compiler
+```
 
 ## 1️⃣ Prerequisites
 
